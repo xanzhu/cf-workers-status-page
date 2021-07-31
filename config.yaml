@@ -1,7 +1,7 @@
 settings:
   title: 'Xanzhu Status Page'
   url: '' # used for Slack messages
-  logo: logo-192x192.png #
+  logo: logo.png #
   daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: a2
-    name: Vercel - a2.xanzhu.com
+    name: v3.2 Vercel, a2.xanzhu.com
     description: 'Latest developer preview from Vercel'
     url: 'https://a2.xanzhu.com'
     method: GET
@@ -24,7 +24,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: a3
-    name: Cloudflare - a3.xanzhu.com
+    name: v3.2 Cloudflare, a3.xanzhu.com
     description: 'Latest developer preview from Cloudflare'
     url: 'https://a3.xanzhu.com'
     method: GET
@@ -32,15 +32,15 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: a4
-    name: Netlify - a4.xanzhu.com
+    name: v3.2 Netlify, a4.xanzhu.com
     description: 'Latest developer preview from Netlify'
     url: 'https://a4.xanzhu.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: Current - xanzhu.com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: xanzhu.com
+    name: v3.1 Vercel, xanzhu.com
+    url: 'https://xanzhu.com/'
     method: GET
     expectStatus: 200
