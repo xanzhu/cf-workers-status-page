@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: a2
-    name: v3.2 Vercel, a2.xanzhu.com
+    name: a2.xanzhu.com (Vercel)
     description: 'Latest developer preview from Vercel'
     url: 'https://a2.xanzhu.com'
     method: GET
@@ -24,15 +24,15 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: a3
-    name: v3.2 Cloudflare, a3.xanzhu.com
+    name: xanzhu.pages.dev (Cloudflare)
     description: 'Latest developer preview from Cloudflare'
-    url: 'https://a3.xanzhu.com'
+    url: 'https://xanzhu.pages.dev'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: a4
-    name: v3.2 Netlify, a4.xanzhu.com
+    name: a4.xanzhu.com (Netlify)
     description: 'Latest developer preview from Netlify'
     url: 'https://a4.xanzhu.com'
     method: GET
@@ -40,7 +40,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: xanzhu.com
-    name: v3.1 Vercel, xanzhu.com
+    name: 'Latest Production release from Vercel'
     url: 'https://xanzhu.com/'
     method: GET
     expectStatus: 200
