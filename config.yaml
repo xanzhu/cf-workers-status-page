@@ -16,31 +16,38 @@ settings:
 
 monitors:
   - id: a2
-    name: a2.xanzhu.com (Vercel)
+    name: a2.xanzhu.com
     description: 'Latest developer preview from Vercel'
     url: 'https://a2.xanzhu.com'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: true
 
   - id: a3
-    name: xanzhu.pages.dev (Cloudflare)
+    name: xanzhu.pages.dev
     description: 'Latest developer preview from Cloudflare'
     url: 'https://xanzhu.pages.dev'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: true
 
   - id: a4
-    name: a4.xanzhu.com (Netlify)
+    name: a4.xanzhu.com
     description: 'Latest developer preview from Netlify'
     url: 'https://a4.xanzhu.com'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: true
 
   - id: xanzhu.com
     name: 'Latest Production release from Vercel'
     url: 'https://xanzhu.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: yunbox
+    name: 'xanzhu.21cloudbox.com'
+    description: 'Latest developer preview from 21YUNBOX'
+    url: 'https://xanzhu.21cloudbox.com/'
     method: GET
     expectStatus: 200
